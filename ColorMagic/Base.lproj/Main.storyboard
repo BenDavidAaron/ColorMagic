@@ -48,15 +48,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="colorNameLabel" destination="cfC-Ve-JHs" id="8hb-02-IQ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="534.375" y="133.09859154929578"/>
         </scene>
-        <!--View Controller-->
+        <!--Color PickerVC-->
         <scene sceneID="hFG-9X-IAc">
             <objects>
-                <viewController id="tmd-xJ-TFr" sceneMemberID="viewController">
+                <viewController id="tmd-xJ-TFr" customClass="ColorPickerVC" customModule="ColorMagic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="boU-o2-If6">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,6 +74,9 @@
                                         <state key="normal" title="Green">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="colorButtonWasPressedWithSender:" destination="tmd-xJ-TFr" eventType="touchUpInside" id="vm8-RH-yTU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKn-po-J1f">
                                         <rect key="frame" x="0.0" y="101" width="320" height="100.5"/>
@@ -79,6 +85,9 @@
                                         <state key="normal" title="Orange">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="colorButtonWasPressedWithSender:" destination="tmd-xJ-TFr" eventType="touchUpInside" id="fZR-z9-KQN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ACH-8d-NbC">
                                         <rect key="frame" x="0.0" y="201.5" width="320" height="101"/>
@@ -87,6 +96,9 @@
                                         <state key="normal" title="Blue">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="colorButtonWasPressedWithSender:" destination="tmd-xJ-TFr" eventType="touchUpInside" id="z0b-kf-ZlU"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mil-Jb-OiD">
                                         <rect key="frame" x="0.0" y="302.5" width="320" height="100.5"/>
@@ -95,6 +107,9 @@
                                         <state key="normal" title="Manly Salmon">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="colorButtonWasPressedWithSender:" destination="tmd-xJ-TFr" eventType="touchUpInside" id="heq-ra-1cl"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BiE-ZW-qZ5">
                                         <rect key="frame" x="0.0" y="403" width="320" height="101"/>
@@ -103,6 +118,9 @@
                                         <state key="normal" title="Purple">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="colorButtonWasPressedWithSender:" destination="tmd-xJ-TFr" eventType="touchUpInside" id="wpQ-T9-Vx4"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
