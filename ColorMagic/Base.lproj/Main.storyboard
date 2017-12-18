@@ -44,7 +44,7 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="WQ5-3K-zcm"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="gZr-0N-aLx">
                             <connections>
-                                <segue destination="tmd-xJ-TFr" kind="show" id="5cB-B5-Pgh"/>
+                                <segue destination="tmd-xJ-TFr" kind="show" identifier="presentColorPickerVC" id="5cB-B5-Pgh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
